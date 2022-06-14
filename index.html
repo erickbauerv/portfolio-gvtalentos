@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+
+        <header id="header" class="flexbox-row">
+            <a href="/">Portfolio</a>
+            <nav id="nav">
+                <button id="nav-button"><span id="iconMenu"></span></button>
+                <ul id="nav-list" class="flexbox-column"> 
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#home-links">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main" class="flexbox-column">
+            <section id="main-home" class="flexbox-column">
+                <figure id="home-profile"><img src="assets/gato.jpeg" alt=""></figure>
+                <h1>Érick Bauer Viana</h1>
+                <p>Software developer</p>
+                <hr>
+                <div id="home-links" class="flexbox-row">
+                    <a href = "https://github.com/hullbe" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+                    <a href = "linkedin.com/in/érick-bauer-viana" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+                    <a href = "https://learn.unity.com/u/606bb6d0edbc2a001fc1900e?tab=profile" target="_blank"><img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" target="_blank"></a>
+                    <a href = "mailto:contatoerickbauer@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+                </div>
+            </section>
+            <section id="main-projects" class="flexbox-column">
+                <section class="project-block project-block-reverse">
+                    <section>
+                        <h2>Hollow Knight Wiki</h2>
+                        <hr>
+                        <p>This project was made during the web development module of the technical course on software development at FAQI, the site is divided into four pages: home, quests, equipments and maps. each one talking about a theme from the Hollow Knight game. The project was developed using HTML5, CSS3, JavaScript and the Bootstrap framework.</p>
+                    </section>
+                    <img src="assets/projeto01.png" alt="">
+                </section>
+                <section class="project-block">
+                    <section>
+                        <h2>Prototype of car game</h2>
+                        <hr>
+                        <p>Project developed during the Junior Programmer pathway on the Unity Learn website, the project is a prototype of a 3D game where you control a car and need to avoid obstacles, the physics components of the objects in the scene were implemented using the Unity engine and the vehicle movement scripts were made with C#.</p>
+                    </section>
+                    <img src="assets/projeto04.png" alt="">
+                </section>
+                <section class="project-block project-block-reverse">
+                    <section>
+                        <h2>Gvflix API</h2>
+                        <hr>
+                        <p>It's a project being developed during my internship at GVdasa, it's an API for a page inspired by the Netflix layout.</p>
+                    </section>
+                    <img src="assets/projeto03.png" alt="">
+                </section>
+            </section>
+        </main>
+        <footer id="footer" class="flexbox-row">
+            <address>email: contatoerickbauer@gmail.com</address>
+            <button><a href="/assets/curriculo_erick_bauer.pdf" download="">download resume</a></button>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
