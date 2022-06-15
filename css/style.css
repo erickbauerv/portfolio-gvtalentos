@@ -67,6 +67,9 @@ a:hover , button:hover{
     border-top: 2.5px solid aliceblue;
     width: 20px;
 }
+#iconMenu:hover{
+    cursor: pointer;
+}
 #iconMenu::after, #iconMenu::before{
     content: "";
     color: aliceblue;
