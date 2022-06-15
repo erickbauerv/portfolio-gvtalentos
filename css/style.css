@@ -92,7 +92,7 @@ a:hover , button:hover{
 #main{
     align-items: center;
     width: 100vw;
-    background-image: url(/assets/background.webp); 
+    background-image: url(../assets/background.webp); 
     background-size: 100vw;
     background-repeat: no-repeat;
 }
@@ -151,7 +151,7 @@ a:hover , button:hover{
 #footer{
     align-items: center;
     justify-content: space-between;
-    background-image: url(/assets/background.webp);
+    background-image: url(../assets/background.webp);
     padding: 1% 10%;
 }
 #footer button{
